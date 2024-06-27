@@ -166,4 +166,17 @@ public class ConsultaMedica {
         return null;
     }
 }
-
+/* Solução do bug data nascimento e atendimento         DateTimeFormatter formatoBr = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+        LocalDate dataNascimento = null;
+        while (dataNascimento == null) {
+            try {
+                System.out.print("Data de nascimento (dd/MM/yyyy): ");
+                String dataNascimentoStr = scanner.nextLine();
+                dataNascimento = LocalDate.parse(dataNascimentoStr, formatoBr);
+            } catch (DateTimeParseException e) {
+                System.out.println("Formato inválido! Por favor, digite no formato dd/MM/yyyy.");
+            }
+        
+        
+    System.out.println("Formato inválido! Por favor, digite no formato dd/MM/yyyy.");
+}*/
